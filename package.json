@@ -1,0 +1,13 @@
+{
+  "name": "prism-browser",
+  "version": "1.0.0",
+  "description": "Prism — justniaaOS private HTML proxy browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-http-header-size=65536 index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}
